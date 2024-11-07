@@ -16,8 +16,9 @@ jobs:
 
     env:
       Solution_Name: fileCreationOpr.sln                          
-      Wap_Project_Directory: fileCreationOpr                        
-      Wap_Project_Path: fileCreationOpr\fileCreationOpr.Package\fileCreationOpr.Package.wapproj  
+      Wap_Project_Directory: fileCreationOpr
+      Wap_Project_Path: fileCreationOpr/fileCreationOpr.Package/fileCreationOpr.Package.wapproj
+
 
     steps:
     - name: Checkout code
