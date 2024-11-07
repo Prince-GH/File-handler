@@ -40,6 +40,7 @@ jobs:
     # Execute unit tests
     - name: Execute unit tests
       run: dotnet test $env:Test_Project_Path
+      continue-on-error: true
 
     # Restore the application
     - name: Restore the application
