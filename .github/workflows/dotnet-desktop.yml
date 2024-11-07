@@ -17,6 +17,7 @@ jobs:
     env:
       Solution_Name: fileCreationOpr.sln                          
       Wap_Project_Directory: fileCreationOpr
+      Test_Project_Path: fileCreationOpr.Tests/fileCreationOpr.Tests.csproj
       Wap_Project_Path: fileCreationOpr/fileCreationOpr.Package/fileCreationOpr.Package.wapproj
 
 
